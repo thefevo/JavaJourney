@@ -2,7 +2,7 @@ package chapter2;
 
 import java.util.Scanner;
 
-public class codesnippet4 {
+public class Arithmetic {
     public static void main(String[] args) {
 //create a scanner object to read from the user
 
