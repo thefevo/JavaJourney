@@ -2,7 +2,7 @@ package chapter3;
 
 import java.util.Scanner;
 
-public class Driverclassaccounttest {
+public class AccountTest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -11,15 +11,15 @@ public class Driverclassaccounttest {
         Account myAccount = new Account();
 
         //display the initial value of name (null)
-        System.out.printf("Initial name is: %s%n%n", myAccount.getname());
+        System.out.printf("Initial name is: %s%n%n", myAccount.getName());
 
         //prompt and read name
         System.out.println("Enter your name");
         String thename = input.nextLine();
-        myAccount.setname(thename);
+        myAccount.setName(thename);
         System.out.println();
 
-        System.out.printf("Your name is:n%s%n");
-        myAccount.getname();
+        System.out.printf("Your name is: %s%n%n",myAccount.getName());
+        myAccount.getName();
     }
 }

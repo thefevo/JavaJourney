@@ -1,6 +1,7 @@
 package chapter2;
 
 import java.util.Scanner; // program uses class Scanner
+import javax.swing.JOptionPane;
 
 public class Addition1 {
     // main method begins execution of Java application

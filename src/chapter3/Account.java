@@ -1,7 +1,10 @@
 package chapter3;
 
-public class Accountclass {
+public class Account {
     private String name;
+
+
+
 
     public void setName(String name) {
         this.name = name;

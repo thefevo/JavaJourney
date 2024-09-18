@@ -9,12 +9,15 @@ public class product {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the integer");
+
         int x = input.nextInt();
 
         System.out.print("Enter the second integer");
+
         int y = input.nextInt();
 
         System.out.print("Enter the third integer");
+
         int z = input.nextInt();
 
         int result = x * y * z;
