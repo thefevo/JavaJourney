@@ -15,7 +15,7 @@ public class readingnumberuntilaspecifiedsum {
 
 
         while(sum<number){
-        System.out.print("Enter an another number higher than the initial::");
+        System.out.print("Enter an another number higher than the initial:");
         number= input.nextInt();
 
         sum+=number;
