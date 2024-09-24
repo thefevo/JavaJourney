@@ -1,12 +1,11 @@
 package chapter4;
 
+import java.rmi.server.LogStream;
 import java.util.Scanner;
 
 public class worldpopulatiogrowth {
-
-
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         double growthRate = 0.0088;
         long currentPopulation = 8000000000L;
@@ -19,8 +18,18 @@ public class worldpopulatiogrowth {
             long populationIncrease = (long) (currentPopulation * growthRate);
             currentPopulation = populationIncrease;
 
+            //String formatter;
+            System.out.printf("%-5d %-25s %-25s%n", year, currentPopulation, populationIncrease);
 
-            System.out.printf("%-5d %-25s %-25s%n", year, format(currentPopulation), format(populationIncrease));
+            if (doublingYear == -1 && currentPopulation >= doublePopulation) {
+                doublingYear = year;
+
+            }
+        }
+        if (doublingYear != -1) {
+            System.out.println("The population will double in year: " + doublingYear);
+        } else {
+            System.out.println("The population will not double within the next 75 years.");
         }
     }
 }
