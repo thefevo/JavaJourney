@@ -7,6 +7,6 @@ public class forcounter {
 
         }
 
-       // System.out.println();
+        System.out.println();
     }
 }
