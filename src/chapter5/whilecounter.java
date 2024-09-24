@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class whilecounter {
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-
+        //Scanner input=new Scanner(System.in);
         int counter=1;
 
         while (counter<=0){
-            System.out.printf("%d ",counter);
+            System.out.printf("%d  ",counter);
 
             ++counter;
         }
