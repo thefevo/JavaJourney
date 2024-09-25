@@ -8,7 +8,7 @@ public class continuetest {
             if (count==5){
                 continue;
             }
-            //System.out.printf("%d",count);
+            System.out.printf("%d",count);
         }
     }
 }
