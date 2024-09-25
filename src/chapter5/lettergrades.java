@@ -45,5 +45,8 @@ public class lettergrades {
             }
         }
         System.out.printf("%ngrade Report:%n");
+        if (gradecounter !=0){
+            double average=(double) total/gradecounter;
+        }
     }
 }
