@@ -21,6 +21,8 @@ public class lettergrades {
 
         while (input.hasNext()){
             int grade= input.nextInt();
+            total +=grade;
+            ++gradecounter;
         }
 
 
