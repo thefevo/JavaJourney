@@ -45,7 +45,10 @@ public class Autopolicy {
                 nofaultstate=true;
                 break;
             default:
+                nofaultstate=false;
+                break;
         }
+        return nofaultstate;
     }
 }
 
