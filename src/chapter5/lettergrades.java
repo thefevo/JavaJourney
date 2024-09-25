@@ -44,5 +44,6 @@ public class lettergrades {
                     break;
             }
         }
+        System.out.printf("%ngrade Report:%n");
     }
 }
