@@ -25,5 +25,9 @@ public class Autopolicy {
     public void setMakeandModel(String makeandModel) {
         this.makeandModel = makeandModel;
     }
+
+    public String getMakeandModel() {
+        return makeandModel;
+    }
 }
 
