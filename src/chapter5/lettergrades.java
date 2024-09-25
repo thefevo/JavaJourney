@@ -14,7 +14,7 @@ public class lettergrades {
         int fcount=0;
         Scanner input=new Scanner(System.in);
 
-        System.out.printf("");
+        System.out.printf("%s%n%s%n   %s%n  %s%n","Enter the integer grades from 0-100");
 
 
     }
