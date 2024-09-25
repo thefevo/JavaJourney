@@ -18,7 +18,12 @@ public class Autopolicy {
     public void setAccountnumber(int accountnumber){
         this.accountnumber=accountnumber;
     }
+      public int getAccountnumber(){
+          return accountnumber;
+      }
 
-
+    public void setMakeandModel(String makeandModel) {
+        this.makeandModel = makeandModel;
     }
+}
 
