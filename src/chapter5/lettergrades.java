@@ -19,6 +19,10 @@ public class lettergrades {
                 "On unix/linus/macos type <ctrl> d then press enter",
                 "On windows type <ctrl> z then press Enter");
 
+        while (input.hasNext()){
+            int grade= input.nextInt();
+        }
+
 
     }
 }
