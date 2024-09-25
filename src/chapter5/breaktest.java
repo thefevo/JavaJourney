@@ -11,7 +11,7 @@ public class breaktest {
             if (count==5){
                 break;
             }
-           // System.out.printf("%d",count);
+            System.out.printf("%d",count);
 
         }
     }
