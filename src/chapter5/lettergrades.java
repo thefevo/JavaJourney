@@ -8,6 +8,7 @@ public class lettergrades {
         int total=0;
         int gradecounter=0;
         int acount=0;
+        int bcount=0;
         Scanner input=new Scanner(System.in);
 
 
