@@ -12,7 +12,7 @@ public class dowhiletest {
             System.out.printf("%d ", counter);
            ++counter;
         } while (counter <= 10) ;
-       // System.out.println();
+        System.out.println();
     }
 
 }
