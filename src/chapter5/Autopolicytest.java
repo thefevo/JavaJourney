@@ -14,6 +14,7 @@ public class Autopolicytest {
         System.out.println("The auto poolicy:");
 
         System.out.printf("Account #:%d;car:%s;%nstate %s %s a no fault state%n%n",
-                policy1.getAccountnumber(),policy1.getMakeandModel(),policy1.getState());
+                policy1.getAccountnumber(),policy1.getMakeandModel(),policy1.getState(),
+                (policy1.isnotfaultstate() ? "is":"is not"));
     }
 }
