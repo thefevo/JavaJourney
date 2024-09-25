@@ -29,5 +29,23 @@ public class Autopolicy {
     public String getMakeandModel() {
         return makeandModel;
     }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getState() {
+        return state;
+    }
+    public boolean isnotfaultstate(){
+        boolean nofaultstate;
+
+        switch (getState()){
+            case "MA": case "NJ": case "NY": case "PA":
+                nofaultstate=true;
+                break;
+            default:
+        }
+    }
 }
 
