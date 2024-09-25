@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class breaktest {
     public static void main(String[] args) {
-        Scanner input= new Scanner(System.in);
+        //Scanner input= new Scanner(System.in);
 
         int count;
         for (count=1;count<=10;count++){
