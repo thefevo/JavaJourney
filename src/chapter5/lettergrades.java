@@ -14,7 +14,10 @@ public class lettergrades {
         int fcount=0;
         Scanner input=new Scanner(System.in);
 
-        System.out.printf("%s%n%s%n   %s%n  %s%n","Enter the integer grades from 0-100:","Type the end-of-file indicator to terminate input:","On unix/linus/macos:");
+        System.out.printf("%s%n%s%n   %s%n  %s%n","Enter the integer grades from 0-100:",
+                "Type the end-of-file indicator to terminate input:",
+                "On unix/linus/macos type <ctrl> d then press enter",
+                "On windows type <ctrl> z then press Enter");
 
 
     }
