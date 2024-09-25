@@ -10,6 +10,7 @@ public class lettergrades {
         int acount=0;
         int bcount=0;
         int ccount=0;
+        int dcount=0;
         Scanner input=new Scanner(System.in);
 
 
