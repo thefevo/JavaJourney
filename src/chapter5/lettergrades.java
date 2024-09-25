@@ -11,6 +11,7 @@ public class lettergrades {
         int bcount=0;
         int ccount=0;
         int dcount=0;
+        int fcount=0;
         Scanner input=new Scanner(System.in);
 
 
