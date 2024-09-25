@@ -13,8 +13,12 @@ public class Autopolicy {
     public Autopolicy(int accountnumber,String makeandModel,String state){
         this.accountnumber=accountnumber;
         this.makeandModel=makeandModel;
-
+        this.state=state;
     }
+    public void setAccountnumber(int accountnumber){
+        this.accountnumber=accountnumber;
+    }
+
 
     }
 
