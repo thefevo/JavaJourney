@@ -14,5 +14,6 @@ public class breaktest {
             System.out.printf("%d",count);
 
         }
+        System.out.printf("%nbroke out of loop at count=%d%n",count);
     }
 }
