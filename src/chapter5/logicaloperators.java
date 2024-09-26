@@ -24,5 +24,7 @@ public class logicaloperators {
                 "boolean loogical inclusive OR (|)","false | false",(false | false),
                 "false | true",(false | true),"true | false",(true | false),
                 "true | true",(true | true));
+
+        System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%s");
     }
 }
