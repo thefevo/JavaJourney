@@ -11,6 +11,6 @@ public class logicaloperators {
                 "false || true",(false || true),"true || true",(true || true));
 
         System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%n",
-                "Boolean logical AND (&)","false & false",(false & false) );
+                "Boolean logical AND (&)","false & false",(false & false),"false & true",(false & true));
     }
 }
