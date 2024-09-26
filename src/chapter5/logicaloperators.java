@@ -25,6 +25,7 @@ public class logicaloperators {
                 "false | true",(false | true),"true | false",(true | false),
                 "true | true",(true | true));
 
-        System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%s");
+        System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%s",
+                "Boolean logical exclusive OR(^)");
     }
 }
