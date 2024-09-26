@@ -10,5 +10,7 @@ public class continuetest {
             }
             System.out.printf("%d",count);
         }
+
+        System.out.printf("%nused continue to printing 5%n");
     }
 }
