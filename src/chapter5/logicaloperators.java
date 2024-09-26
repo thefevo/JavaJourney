@@ -6,6 +6,8 @@ public class logicaloperators {
                 "false && false",("false && false"),"false && true",("false && true"),
                 "true && false",("true && false"),"true && true",("true && true"));
 
-        System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%n");
+        System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%n",
+                "conditional OR (||)","false || false",(false || false),
+                "false || true",(false || true),"true || true",(true || true));
     }
 }
