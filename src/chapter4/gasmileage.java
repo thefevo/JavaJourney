@@ -1,5 +1,7 @@
 package chapter4;
 
+import java.util.Scanner;
+
 public class gasmileage {
     private double milesdriven;
     private double gallonsused;
@@ -9,6 +11,9 @@ public class gasmileage {
     public double calculateMilespergallons() {
 
         double milesPerGallons;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter 1 to record miles driven and gallons used for each trips and  to end ");
+        int trips = input.nextInt();
     //public static void main(String[] args) {
        // Scanner input = new Scanner(System.in);
         //int miles;
