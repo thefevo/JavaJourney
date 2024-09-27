@@ -20,8 +20,8 @@ public class codesegment2 {
                     break;
             }
             n=1;
-            //while(n<10) {
-               // System.out.println(n++);
+            while(n<10) {
+                System.out.println(n++);
             }
         }
     }
