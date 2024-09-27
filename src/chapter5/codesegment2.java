@@ -18,7 +18,10 @@ public class codesegment2 {
                 default:
                     System.out.println("The number is not 1 or 2");
                     break;
-
+            }
+            n=1;
+            //while(n<10) {
+               // System.out.println(n++);
             }
         }
     }
