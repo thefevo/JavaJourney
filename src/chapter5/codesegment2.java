@@ -16,6 +16,7 @@ public class codesegment2 {
                     System.out.println("The number is 2 ");
                     break;
                 default:
+                    System.out.println("The number is not 1 or 2");
 
             }
         }
