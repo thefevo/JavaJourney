@@ -14,6 +14,9 @@ public class codesegment2 {
                     System.out.println("The number is 1");
                 case 2:
                     System.out.println("The number is 2 ");
+                    break;
+                default:
+
             }
         }
     }
