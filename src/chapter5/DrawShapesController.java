@@ -1,37 +1,46 @@
 import javafx.event.ActionEvent;
- import javafx.fxml.FXML;
- import javafx.scene.canvas.Canvas;
- import javafx.scene.canvas.GraphicsContext;
+import javafx.fxml.FXML;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
+
 public class DrawShapesController {
- @FXML private Canvas canvas;
- // when user presses Draw Rectangles button, call draw for rectangles
-        @FXML
- void strokeRectanglesButtonPressed(ActionEvent event) {
-         draw("rectangles");
-        }
+    // Reference to the Canvas object in the FXML file
+    private Canvas canvas;
 
-        // when user presses Draw Ovals button, call draw for ovals
-         @FXML
- void strokeOvalsButtonPressed(ActionEvent event) {
-         draw("ovals");
-         }
+    // Handles the "Draw Rectangles" button press
+    void strokeRectanglesButtonPressed(ActionEvent event) {
+        drawShapes("rectangles");
+    }
 
-        // draws rectangles or ovals based on which Button the user pressed
-        public void draw(String choice) {
-        // get the GraphicsContext, which is used to draw on the Canvas
-         GraphicsContext gc = canvas.getGraphicsContext2D();
+    // Handles the "Draw Ovals" button press
+    void strokeOvalsButtonPressed(ActionEvent event) {
+        drawShapes("ovals");
+    }
 
-         // clear the canvas for next set of shapes
+    // Method to draw either rectangles or ovals based on the choice
+    public void drawShapes(String choice) {
+        // Get the GraphicsContext, which is used to draw on the Canvas
+        GraphicsContext gc = canvas.getGraphicsContext2D();
 
-         int step = 10;
-        // draw 10 overlapping shapes
-         for (int i = 0; i < 10; i++) {
-             // pick the shape based on the user's choice
-             switch (choice) {
-                 case "rectangles": // draw rectangles
+        // Clear the canvas before drawing new shapes
+        gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
+
+        int step = 10;  // Distance between the shapes
+
+        // Loop to draw 10 shapes (either rectangles or ovals)
+        for (int i = 0; i < 10; i++) {
+            // Draw based on the user's choice
+            switch (choice) {
+                case "rectangles":
+                    // Draw a rectangle at increasing positions and sizes
+                    gc.strokeRect(10 + i * step, 10 + i * step, 50 + i * step, 50 + i * step);
                     break;
-                 case "ovals": // draw ovals
 
-                    gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
-                    gc.strokeRect(10 + i * step, 10 + i * step,
-                            90 + i * step, 90 + i * step);
+                case "ovals":
+                    // Draw an oval at increasing positions and sizes
+                    gc.strokeOval(10 + i * step, 10 + i * step, 50 + i * step, 50 + i * step);
+                    break;
+            }
+        }
+    }
+}
