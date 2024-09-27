@@ -1,29 +1,35 @@
 package chapter4;
 
-import java.util.Scanner;
-
 public class gasmileage {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int miles;
-        int gallon;
-        System.out.print("Enter the miles driven:");
-        miles =input.nextInt();
+    private double milesdriven;
+    private double gallonsused;
+    private int totalMilesPerGallons = 0;
+    int tripCounter = 0;
 
-        System.out.print("Enter the gallon used:");
-        gallon= input.nextInt();
+    public double calculateMilespergallons() {
 
-        double tripmilespergallon=(double) gallon/miles;
-        System.out.printf("miles per gallon for this trip %.2f%n:",tripmilespergallon);
+        double milesPerGallons;
+    //public static void main(String[] args) {
+       // Scanner input = new Scanner(System.in);
+        //int miles;
+        //int gallon;
+       // System.out.print("Enter the miles driven:");
+       // miles =input.nextInt();
 
-        int totalMiles = miles;
-        int totalgallon=gallon;
+        //System.out.print("Enter the gallon used:");
+       // gallon= input.nextInt();
 
-        double combinedmilespergallon=(double) totalgallon/totalMiles;
-        System.out.printf("combined miles per gallon for the trip so far %.2f%n:",combinedmilespergallon);
+        //double tripmilespergallon=(double) gallon/miles;
+       // System.out.printf("miles per gallon for this trip %.2f%n:",tripmilespergallon);
 
-        System.out.println("");
+       // int totalMiles = miles;
+        //int totalgallon=gallon;
 
-        System.out.println("Thank you that's all for this trip!");
+       // double combinedmilespergallon=(double) totalgallon/totalMiles;
+       // System.out.printf("combined miles per gallon for the trip so far %.2f%n:",combinedmilespergallon);
+
+       // System.out.println("");
+
+        //System.out.println("Thank you that's all for this trip!");
     }
 }
