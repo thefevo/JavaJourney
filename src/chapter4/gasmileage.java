@@ -14,6 +14,31 @@ public class gasmileage {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter 1 to record miles driven and gallons used for each trips and  to end ");
         int trips = input.nextInt();
+
+        int newTrips = 1;
+
+        while(trips != 0)
+        {
+            System.out.print("Enter miles driven: ");
+           int  milesDriven = (int) input.nextDouble();
+
+            System.out.print("Enter gallons Used: " );
+           int gallonsUsed = (int) input.nextDouble();
+
+            milesPerGallons = milesDriven / gallonsUsed;
+            System.out.printf("Mile per gallons for trip %d is: %.2f%n%n", newTrips,  milesPerGallons);
+
+            totalMilesPerGallons += milesPerGallons;
+            newTrips++;
+
+            System.out.print("Enter 1 to continue and 0 to end: ");
+            trips = input.nextInt();
+
+
+        }
+        input.close();
+//		this.tripCounter = newTrips;
+        return totalMilesPerGallons;
     //public static void main(String[] args) {
        // Scanner input = new Scanner(System.in);
         //int miles;
