@@ -33,7 +33,7 @@ public class extremes {
 
            System.out.println("min value " + min);
            System.out.println("max value"+ max);
-          // System.out.println("sum of min and max" + sum);
+           System.out.println("sum of min and max" + sum);
 
           // input.close();
        }
