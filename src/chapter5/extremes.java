@@ -17,5 +17,16 @@ public class extremes {
         }
         int min=Integer.MAX_VALUE;
        int max=Integer.MIN_VALUE;
+
+       for (int i=1;i<=count;i++);
+       System.out.printf("Enter integer #" + 1 + ";");
+       int number= input.nextInt();
+
+       if (number<min){
+           //min=number;
+       }
+       //if (number>max){
+          // max=number;
+       }
     }
 }
