@@ -6,7 +6,8 @@ public class extremes {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter how many integers you want to print");
+
+        System.out.print("Enter how many integers you want to print:");
 
         int count=input.nextInt();
 
@@ -27,6 +28,15 @@ public class extremes {
        }
        if (number>max){
            max=number;
+
+           int sum= min + max;
+
+           //System.out.println("min value " + min);
+           //System.out.println("max value"+ max);
+          // System.out.println("sum of min and max" + sum);
+
+          // input.close();
        }
     }
+
 }
