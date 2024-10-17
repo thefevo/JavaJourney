@@ -25,7 +25,7 @@ public class extremes {
        if (number<min){
            min=number;
        }
-       //if (number>max){
+       if (number>max){
           // max=number;
        }
     }
