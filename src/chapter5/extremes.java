@@ -23,7 +23,7 @@ public class extremes {
        int number= input.nextInt();
 
        if (number<min){
-           //min=number;
+           min=number;
        }
        //if (number>max){
           // max=number;
