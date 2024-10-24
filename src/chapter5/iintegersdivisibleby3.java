@@ -14,8 +14,8 @@ public class iintegersdivisibleby3 {
             // Check if the number is divisible by 3
             if (i % 3 == 0) {
                sum += i; // Add to sum if divisible by 3
-           // }
-        //}
+            }
+        }
 
         // Display the calculated sum
         //System.out.println("The sum of integers between 1 and 30 that are divisible by 3 is: " + sum);
