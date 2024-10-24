@@ -43,5 +43,7 @@ public class CHRapplication {
         System.out.printf("BMI: %.1f%n", PROFILE.calculateBMI());
         System.out.printf("Maximum Heart Rate: %d bpm%n", PROFILE.getmaxhearthrate());
         System.out.printf("Target Heart Rate Range: %s%n", PROFILE.gettargetheartraterange());
+
+        input.close();
     }
 }
