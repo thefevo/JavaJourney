@@ -20,7 +20,7 @@ public class iintegersdivisibleby3 {
         // Display the calculated sum
         System.out.println("The sum of integers between 1 and 30 that are divisible by 3 is: " + sum);
 
-       // input.close();
+        input.close();
     }
 }
 
