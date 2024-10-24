@@ -12,7 +12,7 @@ public class iintegersdivisibleby3 {
         // Loop through numbers from 1 to 30
         for (int i = 1; i <= 30; i++) {
             // Check if the number is divisible by 3
-           // if (i % 3 == 0) {
+            if (i % 3 == 0) {
                // sum += i; // Add to sum if divisible by 3
            // }
         //}
