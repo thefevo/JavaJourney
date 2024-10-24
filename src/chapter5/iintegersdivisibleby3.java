@@ -7,7 +7,7 @@ public class iintegersdivisibleby3 {
 
         Scanner input = new Scanner(System.in);
 
-        //int sum = 0;
+        int sum = 0;
 
         // Loop through numbers from 1 to 30
        // for (int i = 1; i <= 30; i++) {
